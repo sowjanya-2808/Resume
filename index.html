@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sowjanya's Resume</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#eef2f7;
+    padding:30px;
+}
+
+.resume{
+    max-width:1100px;
+    margin:auto;
+    background:#fff;
+    display:grid;
+    grid-template-columns:320px 1fr;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* LEFT SIDE */
+
+.left{
+    background:#f1f5f9;
+    padding:35px;
+}
+
+.profile{
+    text-align:center;
+}
+
+.profile img{
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    border-radius:15px;
+    border:4px solid #14b8a6;
+    transition:0.3s;
+}
+
+.profile img:hover{
+    transform:scale(1.05);
+}
+
+.profile h1{
+    margin-top:15px;
+    color:#111827;
+    font-size:30px;
+}
+
+.role{
+    color:#14b8a6;
+    font-size:18px;
+    font-weight:600;
+    margin-top:5px;
+}
+
+.contact{
+    margin-top:20px;
+}
+
+.contact p{
+    margin:8px 0;
+    font-size:14px;
+    color:#374151;
+}
+
+.left-section{
+    margin-top:35px;
+}
+
+.left-section h3{
+    color:#14b8a6;
+    border-bottom:3px solid #14b8a6;
+    padding-bottom:8px;
+    margin-bottom:12px;
+}
+
+.left-section p{
+    color:#374151;
+    line-height:1.7;
+}
+
+.left-section ul{
+    list-style:none;
+}
+
+.left-section ul li{
+    margin-bottom:8px;
+    color:#374151;
+}
+
+/* RIGHT SIDE */
+
+.right{
+    padding:40px;
+}
+
+.section{
+    margin-bottom:35px;
+}
+
+.section h2{
+    color:#111827;
+    margin-bottom:20px;
+    border-left:5px solid #14b8a6;
+    padding-left:12px;
+}
+
+.item{
+    margin-bottom:20px;
+}
+
+.item-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.item-title{
+    font-weight:bold;
+    font-size:18px;
+    color:#111827;
+}
+
+.item-date{
+    color:#14b8a6;
+    font-weight:600;
+}
+
+.item p{
+    margin-top:8px;
+    line-height:1.7;
+    color:#4b5563;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
+}
+
+.skill{
+    background:#f3f4f6;
+    padding:12px;
+    text-align:center;
+    border-radius:10px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.skill:hover{
+    background:#14b8a6;
+    color:white;
+}
+
+.cert{
+    background:#f8fafc;
+    border-left:5px solid #14b8a6;
+    padding:12px;
+    margin-bottom:12px;
+    border-radius:8px;
+}
+
+a{
+    text-decoration:none;
+    color:#2563eb;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="resume">
+
+    <!-- LEFT PANEL -->
+
+    <div class="left">
+
+        <div class="profile">
+           
+                <img src="profile.jpg" alt="Profile Photo">
+            
+
+            <h1>Baddula Sai Lakshmi Sowjanya</h1>
+            <div class="role">B.Tech CSE Student</div>
+        </div>
+
+        <div class="contact">
+            <p><strong>Phone:</strong> +91 7794063859</p>
+            <p><strong>Email:</strong> baddulasowjanya5@gmail.com</p>
+
+            <p>
+                <strong>GitHub:</strong><br>
+                <a href="https://github.com/sowjanya-2808" target="_blank">
+                    Github Page
+                </a>
+            </p>
+
+            <p>
+                <strong>Portfolio:</strong><br>
+                <a href="https://yourportfolio.com" target="_blank">
+                    View Portfolio
+                </a>
+            </p>
+
+            <p>
+                <strong>LinkedIn:</strong><br>
+                <a href="https://www.linkedin.com/in/sai-lakshmi-sowjanya-baddula-64a5a0338?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+                    LinkedIn Profile
+                </a>
+            </p>
+        </div>
+
+        <div class="left-section">
+            <h3>Career Objective</h3>
+            <p>
+                Motivated and detail-oriented Computer Science student
+                with strong programming and problem-solving skills.
+                Seeking an opportunity to contribute to innovative projects
+                while enhancing technical expertise.
+            </p>
+        </div>
+
+        <div class="left-section">
+            <h3>Personal Information</h3>
+            <p><strong>DOB:</strong> 28-08-2007</p>
+            <p><strong>Location:</strong> Narasaraopeta,Andhra Pradesh</p>
+            <p><strong>Languages:</strong> English, Telugu</p>
+        </div>
+
+        <div class="left-section">
+            <h3>Interests</h3>
+            <ul>
+                <li>Artificial Intelligence</li>
+                <li>Web Development</li>
+                <li>Cloud Computing</li>
+                <li>Problem Solving</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- RIGHT PANEL -->
+
+    <div class="right">
+
+        <div class="section">
+            <h2>Education</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">B.Tech - Computer Science Engineering</span>
+                    <span class="item-date">2024 - 2028</span>
+                </div>
+                <p>Seshadri Rao Gudlavalleru Engineering College</p>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Intermediate (MPC)</span>
+                    <span class="item-date">2022 - 2024</span>
+                </div>
+                <p>Narayana Junior College</p>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">SSC</span>
+                    <span class="item-date">2022</span>
+                </div>
+                <p>Geetanjali EM TM High School</p>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+
+            <div class="skills">
+                <div class="skill">Python</div>
+                <div class="skill">Java</div>
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">MySQL</div>
+                <div class="skill">Data Structures</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Smart Crime Analytics System</span>
+                    <span class="item-date">2026</span>
+                </div>
+
+                <p>
+                    Developed a crime analysis and prediction system using
+                    Python, data visualization, and analytics techniques.
+                </p>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Personal Portfolio Website</span>
+                    <span class="item-date">2025</span>
+                </div>
+
+                <p>
+                    Built a responsive portfolio website using HTML, CSS,
+                    and JavaScript to showcase projects and achievements.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <h2>Certifications</h2>
+
+            <div class="cert">
+                Beginner:Introduction to Generative AI
+            </div>
+
+            <div class="cert">
+                Python Programming
+            </div>
+
+           
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
